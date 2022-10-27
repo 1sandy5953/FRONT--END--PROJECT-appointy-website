@@ -48,12 +48,35 @@
       box-shadow: 0 1px 20px 0 rgb(0 0 0 / 14%);
   
 }
+
+#logo-company {
+  background-image: url("https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/dfb487d3-3cb5-473a-9af1-a4e1777cb335.png");
+  background-position: 0 1px;
+  background-repeat: no-repeat;
+  background-size: 260px auto;
+  display: inline-block;
+  height: 100px;
+  width: 400px;
+  margin: left 0px;;
+}
 .div1{
   text-align: center;
+  font-weight: 50;
   
 }
 .imgtop{
-  height: 500px;
+  height: 550px;
   width: 90%;
-  left
+  margin-left: 4%;
+}
+#icon{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+#icon1,#icon2{
+  align-items: center;
+  text-align: center;
 }
