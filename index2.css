@@ -62,6 +62,7 @@
 .div1{
   text-align: center;
   font-weight: 50;
+  font-family: cursive;
   
 }
 .imgtop{
@@ -75,7 +76,7 @@
   flex-direction: row;
   font-size:21px;
   font-weight: 50;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
   
   
 }
@@ -88,6 +89,7 @@
 
 .but{
   position: relative;
+  color: #fff;
   left: 43%;
   top: 0px;
   height: 40px;
@@ -98,7 +100,7 @@
 }
 .div5{
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
   
 }
 
@@ -106,9 +108,32 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
-  
   justify-content: space-evenly;
-  font-family:Arial, Helvetica, sans-serif ;
-  ;
+  font-family:cursive ;
+  
+}
+
+.aftervideo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+   
+
+}
+#box1{
+  width: 500px;
+  border: 2px solid rgb(3, 3, 3);
+  padding: 50px;
+  margin: 20px;
+  font-family: cursive;
+  background-color: rgb(250, 246, 246);
+}
+
+#but2{
+  color:  white;
+  height: 40px;
+  width: 200px;
+  font-size: 15PX;
+  border-radius: 5px;
+  background-color: green ;
 }
