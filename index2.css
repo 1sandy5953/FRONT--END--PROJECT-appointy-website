@@ -98,6 +98,9 @@
   font-size: large;
   background-color: green;
 }
+.but:hover{
+  background-color: darkgreen;
+}
 .div5{
   text-align: center;
   font-family: cursive;
@@ -110,6 +113,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-family:cursive ;
+  padding: 10%;
+  padding-top: 5%;
   
 }
 
@@ -136,4 +141,8 @@
   font-size: 15PX;
   border-radius: 5px;
   background-color: green ;
+}
+
+#but2:hover{
+  background-color: darkgreen;
 }
