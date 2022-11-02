@@ -171,3 +171,9 @@
   font-family: cursive;
   background-color: rgb(250, 246, 246);
  }
+ #lastimg{
+  height: 40%;
+  width: 40%;
+  position: relative;
+  left: 50%;
+ }
